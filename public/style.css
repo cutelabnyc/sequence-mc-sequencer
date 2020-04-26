@@ -1,3 +1,23 @@
 body {
     font-family: Futura;
 }
+
+.sequencerButton {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(86, 159, 228);
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.sequencerButton.current {
+    background-color: whitesmoke;
+}
+
+.sequencerButton.engaged {
+    border-radius: 20px;
+}
+
+.sequencerRow {
+    display: flex;
+}

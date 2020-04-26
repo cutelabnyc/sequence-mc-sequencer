@@ -26,7 +26,7 @@ function ClockFace(props) {
         postfix = "o'clock";
     } else if (props.language === "fr") {
         prefix = "Il est";
-        postfix = "heures";
+        postfix = "huerees";
     }
 
     return (
