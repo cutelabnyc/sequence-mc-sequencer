@@ -1,6 +1,7 @@
 const React = require("react");
 const ClockFace = require("./ClockFace");
 const SequencerRow = require("./SequencerRow");
+const AudioEngine = require("./AudioEngine");
 
 /* the main page for the index route of this app */
 const RootComponent = function() {
@@ -28,6 +29,7 @@ const RootComponent = function() {
   return (
     <div>
       <h1>Hello!</h1>
+      <AudioEngine />
 
       <p>The Best Sequencer</p>
       <SequencerRow clickHandler={toggleSequenceAtIndex} sequence={sequence} current={current}/>
